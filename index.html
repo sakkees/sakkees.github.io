@@ -170,6 +170,23 @@
             {% endfor %}
           </div>
 
+          
+          <!-- Other -->
+          <div class="section">
+            <h2>Övrigt</h2>
+            {% for item in site.data.cv.sideProjects %}
+            <div class="row">
+              <div class="col-xs-12">
+                <h4><b>{{item.name}}</b></h4>
+              </div>
+              <div class="col-xs-12">
+                <p>{{ item.description }}</p>
+                <h5>{{item.langs}}</h5>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+
         </div>
       </div>
     </div>
