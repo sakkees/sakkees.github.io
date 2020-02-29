@@ -18,17 +18,16 @@
   <meta name="author" content="{{ site.data.cv.name }}" />
   <meta name="description" content="{{ site.data.cv.name }}s CV" />
   <link rel="shortcut icon" href="/headshot.png">
-  <!--
+
   <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/cv.css" rel="stylesheet">
   <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="all" />
-  -->
-  <link rel="stylesheet" media="screen" href="css/style.css">
-  <!--
+ <link rel="stylesheet" media="screen" href="css/style.css">
+  
   <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300' rel='stylesheet' type='text/css'>
-
+<!-- SET TO src="webfontconfig.js" INSTEAD -->
   <script type="text/javascript">
     WebFontConfig = {
       google: {
@@ -43,18 +42,16 @@
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(wf, s);
     })();
-
   </script>
--->
 </head>
 <body>
-  <!-- particles.js container -->
+  <!-- particles.js container 
   <div id="particles-js"></div>
-  <!-- scripts -->
+  <!-- scripts 
   <script src="particles.js"></script>
   <script src="js/app.js"></script>
-
-  <!-- 
+-->
+  
   <div class="container">
     <div class="row">
       <div id="fullHeight" class="col-xs-3 bg-gray">
@@ -88,7 +85,7 @@
           </div>
 
           <!-- TECHNICALS SKILLS -->
-  <!--
+  
           <div class="section">
             <h4><i class="fa fa-cogs" aria-hidden="true"></i> Tekniska färdigheter</h4>
             {% for item in site.data.cv.technicalSkills.backend %} {{item.name}}
@@ -98,7 +95,7 @@
             {% endfor %}
 
             <!--            <h4 class="techSkillHeader"><i class="fa fa-code"></i> Frontend</h4> -->
-  <!--
+  
             {% for item in site.data.cv.technicalSkills.frontend %} {{item.name}}
             <div class="progress">
               <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{item.level}}%"></div>
@@ -106,7 +103,7 @@
             {% endfor %}
 
             <!--            <h4 class="techSkillHeader"><i class="fa fa-cogs"></i> Other</h4> -->
-  <!--
+  
             {% for item in site.data.cv.technicalSkills.other %} {{item.name}}
             <div class="progress">
               <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{item.level}}%"></div>
@@ -134,7 +131,6 @@
           </div>
 
           <!-- CAREER -->
-  <!--
           <div class="section">
             <h2>Arbetslivserfarenhet</h2>
             {% for item in site.data.cv.career %}
@@ -169,7 +165,6 @@
           </div>
 
           <!-- EDUCATION -->
-  <!--
           <div class="section">
             <h2>Utbildning</h2>
             {% for item in site.data.cv.education %}
@@ -184,7 +179,6 @@
           </div>
 
           <!-- Other -->
-  <!--
           <div class="section">
             <h2>Övrigt</h2>
             {% for item in site.data.cv.other %}
@@ -204,6 +198,5 @@
       </div>
     </div>
   </div>
--->
 </body>
 </html>
