@@ -44,7 +44,7 @@ technicalSkills:
   backend:
    - name: MySQL
      level: 65
-    - name : PHP
+   - name: PHP
     level: 25
   frontend:
    - name: HTML/CSS
@@ -52,7 +52,7 @@ technicalSkills:
    - name: JavaScript / Node.js
      level: 35
   other:
-    - name: Java
+   - name: Java
      level: 85
    - name: C++
      level: 45
