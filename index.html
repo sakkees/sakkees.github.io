@@ -10,14 +10,13 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html>
 <!--<![endif]-->
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.data.cv.person.name }}</title>
   <meta name="author" content="{{ site.data.cv.name }}" />
   <meta name="description" content="Allt om {{ site.data.cv.name }}" />
-  <link rel="shortcut icon" href="/headshot.png">
+  <link rel="shortcut icon" href="images/headshot.png">
 
   <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/cv.css" rel="stylesheet">
@@ -28,16 +27,15 @@
   <link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300' rel='stylesheet' type='text/css'>
   
-  <script src="webfontconfig.js"></script>
+  <script src="js/webfontconfig.js"></script>
 </head>
 <body>
   <!-- particles.js container 
   <div id="particles-js"></div>
   <!-- scripts 
-  <script src="particles.js"></script>
+  <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
 -->
-  
   <div class="container">
     <div class="row">
       <div id="fullHeight" class="col-xs-3 bg-gray">
@@ -81,8 +79,7 @@
               {% endif%}
             </table>
           </div>
-
-
+<!-- OLD LIST WITH INFO
           <div class="section">
             <ul class="list-unstyled">
               {% if site.data.cv.person.location %}
@@ -106,9 +103,8 @@
               {% endif%}
             </ul>
           </div>
-
+-->
           <!-- TECHNICALS SKILLS -->
-  
           <div class="section">
             <h4><i class="fa fa-cogs" aria-hidden="true"></i> Tekniska färdigheter</h4>
             {% for item in site.data.cv.technicalSkills.backend %} {{item.name}}
@@ -116,17 +112,11 @@
               <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{item.level}}%"></div>
             </div>
             {% endfor %}
-
-            <!--            <h4 class="techSkillHeader"><i class="fa fa-code"></i> Frontend</h4> -->
-  
             {% for item in site.data.cv.technicalSkills.frontend %} {{item.name}}
             <div class="progress">
               <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{item.level}}%"></div>
             </div>
             {% endfor %}
-
-            <!--            <h4 class="techSkillHeader"><i class="fa fa-cogs"></i> Other</h4> -->
-  
             {% for item in site.data.cv.technicalSkills.other %} {{item.name}}
             <div class="progress">
               <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{item.level}}%"></div>
@@ -145,6 +135,7 @@
 
         </div>
       </div>
+
       <div class="col-xs-9">
         <div class="row">
 
