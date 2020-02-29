@@ -53,39 +53,35 @@
                 <td><i class="fa fa-map-marker"></i></td>
                 <td>{{site.data.cv.person.location}}</td>
               </tr> 
-              {% endif%}
-              {% if site.data.cv.person.email %}
+              {% endif%} {% if site.data.cv.person.email %}
               <tr>
                 <td><i class="fa fa-envelope-o"></td>
                 <td><a href="mailto: {{ site.data.cv.person.email }}">{{site.data.cv.person.email }}</a></td>
               </tr> 
-              {% endif%}
-              {% if site.data.cv.person.site %}
+              {% endif%} {% if site.data.cv.person.site %}
               <tr>
                 <td><i class="fa fa-laptop"></td>
                 <td><a href="http://{{ site.data.cv.person.site }}">{{ site.data.cv.person.site }}</a></td>
               </tr> 
-              {% endif%}
-              {% if site.data.cv.person.phone %}
+              {% endif%} {% if site.data.cv.person.phone %}
               <tr>
                 <td><i class="fa fa-phone"></i></td>
                 <td>{{site.data.cv.person.phone}}</td>
               </tr> 
-              {% endif%}
-              {% if site.data.cv.person.github %}
+              {% endif%} {% if site.data.cv.person.github %}
               <tr>
                 <td><i class="fa fa-github"></i></td>
                 <td><a href="https://github.com{{site.data.cv.person.github}}">{{site.data.cv.person.github}}</a></td>
               </tr> 
-              {% endif%}
-              {% if site.data.cv.person.linkedin %}
+              {% endif%} {% if site.data.cv.person.linkedin %}
               <tr>
                 <td><i class="fa fa-linkedin"></i></td>
                 <td><a href="https://www.linkedin.com/in{{site.data.cv.person.linkedin}}">{{site.data.cv.person.linkedin}}</a></td>
               </tr> 
               {% endif%}
             </table>
-
+            
+            {% if site.data.cv.person.location %}
             <ul class="list-unstyled">
               <li><i class="fa fa-map-marker"></i> {{site.data.cv.person.location}}</li>
               {% endif%} {% if site.data.cv.person.email %}
