@@ -66,29 +66,27 @@
                 <td><a href="http://{{ site.data.cv.person.site }}">{{ site.data.cv.person.site }}</a></td>
               </tr> 
               {% endif%}
-              {% if if site.data.cv.person.phone %}
+              {% if site.data.cv.person.phone %}
               <tr>
                 <td><i class="fa fa-phone"></i></td>
                 <td>{{site.data.cv.person.phone}}</td>
               </tr> 
               {% endif%}
-              {% if  site.data.cv.person.github %}
+              {% if site.data.cv.person.github %}
               <tr>
                 <td><i class="fa fa-github"></i></td>
                 <td><a href="https://github.com{{site.data.cv.person.github}}">{{site.data.cv.person.github}}</a></td>
               </tr> 
               {% endif%}
-              {% if  site.data.cv.person.linkedin %}
+              {% if site.data.cv.person.linkedin %}
               <tr>
                 <td><i class="fa fa-linkedin"></i></td>
                 <td><a href="https://www.linkedin.com/in{{site.data.cv.person.linkedin}}">{{site.data.cv.person.linkedin}}</a></td>
               </tr> 
               {% endif%}
             </table>
+
             <ul class="list-unstyled">
-              
-
-
               <li><i class="fa fa-map-marker"></i> {{site.data.cv.person.location}}</li>
               {% endif%} {% if site.data.cv.person.email %}
               <li><i class="fa fa-envelope-o"></i>
