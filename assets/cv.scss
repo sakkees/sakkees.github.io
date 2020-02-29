@@ -6,7 +6,16 @@ body{
 }
 
 #fullHeight{
-  height: 1250px; 
+  height: 1500px; 
+}
+
+td {
+  padding-right:15px;   
+}
+
+td:first-child {
+  padding-left:0;
+  padding-right:15px;
 }
 
 .container{
