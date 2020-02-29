@@ -37,9 +37,6 @@ technicalSkills:
     - tr: "Impulsive, creative and very social"
     - tr: "Heart and soul of the Ninja Turtles"
     - tr: "Master of the Kusarigama and nunchucks"
-    - tr: "Labeled as 'The Wild One' and 'The Party Dude'"
-    - tr: "First of the turtles to taste pizza"
-    - tr: "Very proud of his talent for naming thing"
     - tr: "Hejsan"
   backend:
    - name: MySQL
@@ -57,7 +54,7 @@ technicalSkills:
    - name: C++
      level: 45
 
-sideProjects:
+other:
   - name: Kursprojekt för Lunds Klimatallians
     description: Tillsammans med sju studiekamrater utvecklade vi ett webbaserat rapporteringssystem där klimatalliansens medlemmar kan rapportera in sina koldioxidutsläpp. Projektet gav mig kunskap inom PHP, JavaScript, MySQL, HTML och CSS.
     type: site
@@ -67,6 +64,8 @@ sideProjects:
     link: http://isaclarsson.se
     type: site
     langs: HTML/CSS/JavaScript/Jekyll
+  - name: Körkort
+    description: Innehar B-körkort
 
 education:
   - name: Datateknik - Lunds Tekniska Högskola
