@@ -59,14 +59,14 @@ other:
     description: Tillsammans med sju studiekamrater utvecklade vi ett webbaserat rapporteringssystem där klimatalliansens medlemmar kan rapportera in sina koldioxidutsläpp. Projektet gav mig kunskap inom PHP, JavaScript, MySQL, HTML och CSS.
     type: site
     langs: HTML/CSS/PHP/MySQL/JavaScript
+  - name: Körkort
+    description: Innehar B-körkort
   - name: Hemsida
     description: Hemsida med CV
     link: http://isaclarsson.se
     type: site
     langs: HTML/CSS/JavaScript/Jekyll
-  - name: Körkort
-    description: Innehar B-körkort
-
+  
 education:
   - name: Datateknik - Lunds Tekniska Högskola
     degree: Högskoleingenjör (Bachelor of Science in Engineering, Computer Science and Engineering)
