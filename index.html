@@ -104,7 +104,7 @@
           </div>
 
           <div class="section">
-            <h4><i class="fa fa-male"></i> Key competencies:</h4>
+            <h4><i class="fa fa-male"></i> Kompetenser:</h4>
             <ul class="list-unstyled">
               {% for item in site.data.cv.technicalSkills.list %}
               <li>{{item.tr}}</li>
@@ -170,11 +170,10 @@
             {% endfor %}
           </div>
 
-          
           <!-- Other -->
           <div class="section">
             <h2>Övrigt</h2>
-            {% for item in site.data.cv.sideProjects %}
+            {% for item in site.data.cv.other %}
             <div class="row">
               <div class="col-xs-12">
                 <h4><b>{{item.name}}</b></h4>
