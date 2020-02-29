@@ -64,8 +64,7 @@ sideProjects:
     type: site
     langs: HTML/CSS/JavaScript/Jekyll
   - name: Kursprojekt för Lunds Klimatallians
-    description: Tillsammans med sju studiekamrater utvecklade vi ett webbaserat rapporteringssystem där klimatalliansens medlemmar kan rapportera in sina koldioxidutsläpp. 
-    Projektet gav mig kunskap inom PHP, JavaScript, MySQL, HTML och CSS.
+    description: Tillsammans med sju studiekamrater utvecklade vi ett webbaserat rapporteringssystem där klimatalliansens medlemmar kan rapportera in sina koldioxidutsläpp. Projektet gav mig kunskap inom PHP, JavaScript, MySQL, HTML och CSS.
     type: site
     langs: HTML/CSS/PHP/MySQL/JavaScript
 
