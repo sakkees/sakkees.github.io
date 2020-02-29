@@ -44,38 +44,38 @@ technicalSkills:
   backend:
    - name: MySQL
      level: 65
-   - name: Java
-     level: 85
+    - name : PHP
+    level: 25
   frontend:
    - name: HTML/CSS
      level: 75
    - name: JavaScript / Node.js
      level: 35
   other:
-   - name: Shadow Puppet Skill
-     level: 90
-   - name: Teaching
-     level: 100
+    - name: Java
+     level: 85
+   - name: C++
+     level: 45
 
 sideProjects:
+  - name: Kursprojekt för Lunds Klimatallians
+    description: Tillsammans med sju studiekamrater utvecklade vi ett webbaserat rapporteringssystem där klimatalliansens medlemmar kan rapportera in sina koldioxidutsläpp. Projektet gav mig kunskap inom PHP, JavaScript, MySQL, HTML och CSS.
+    type: site
+    langs: HTML/CSS/PHP/MySQL/JavaScript
   - name: Hemsida
     description: Hemsida med CV
     link: http://isaclarsson.se
     type: site
     langs: HTML/CSS/JavaScript/Jekyll
-  - name: Kursprojekt för Lunds Klimatallians
-    description: Tillsammans med sju studiekamrater utvecklade vi ett webbaserat rapporteringssystem där klimatalliansens medlemmar kan rapportera in sina koldioxidutsläpp. Projektet gav mig kunskap inom PHP, JavaScript, MySQL, HTML och CSS.
-    type: site
-    langs: HTML/CSS/PHP/MySQL/JavaScript
 
 education:
   - name: Datateknik - Lunds Tekniska Högskola
-    degree: Högskoleingenjör
+    degree: Högskoleingenjör (Bachelor of Science in Engineering, Computer Science and Engineering)
     location: Helsingborg
     dates: 2015 – 2020
   - name: Teknikprogrammet - IT-Gymnasiet
     degree: Gymnasieexamen
     location: Helsingborg
-    dates: 2015 – 2020
+    dates: 2012 – 2015
 
   
