@@ -59,8 +59,6 @@
             <ul class="list-unstyled">
               {% if site.data.cv.person.location %}
               <li><i class="fa fa-map-marker"></i> {{site.data.cv.person.location}}</li>
-              {% endif%} {% if site.data.cv.person.citizenship %}
-              <li><i class="fa fa-flag-o"></i> {{site.data.cv.person.citizenship}}</li>
               {% endif%} {% if site.data.cv.person.email %}
               <li><i class="fa fa-envelope-o"></i>
                 <a href="mailto: {{ site.data.cv.person.email }}">{{site.data.cv.person.email }}</a></li>
@@ -73,8 +71,6 @@
               <li><i class="fa fa-github"></i>
                 <a href="https://github.com{{site.data.cv.person.github}}">{{site.data.cv.person.github}}</a>
               </li>
-              {% endif%} {% if site.data.cv.person.stackoverflow %}
-              <li><i class="fa fa-stack-overflow"></i> <a href="http://stackoverflow.com/users/1252056{{site.data.cv.person.stackoverflow}}">{{site.data.cv.person.stackoverflow}}</a>
               {% endif%} {% if site.data.cv.person.linkedin %}
               <li><i class="fa fa-linkedin"></i>
                   <a href="https://www.linkedin.com/in{{site.data.cv.person.linkedin}}">{{site.data.cv.person.linkedin}}</a>
