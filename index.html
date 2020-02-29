@@ -17,11 +17,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.data.cv.person.name }}s CV</title>
   <meta name="author" content="{{ site.data.cv.name }}" />
-  <meta name="description" content="{{ site.data.cv.name }}'s CV" />
+  <meta name="description" content="{{ site.data.cv.name }}s CV" />
   <link rel="shortcut icon" href="/headshot.png">
   <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/cv.css" rel="stylesheet">
   <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="all" />
+  
+  <link rel="stylesheet" media="screen" href="css/style.css">
 
   <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
@@ -46,6 +48,39 @@
 </head>
 
 <body>
+
+  <!-- count particles -->
+<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+</div>
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script src="../particles.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
 
   <div class="container">
     <div class="row">
