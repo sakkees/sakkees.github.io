@@ -4,7 +4,7 @@ projectUrl:
 # leave blank fields which you don't want to fill/be displayed
 person:
   name: Isac Larsson
-  depiction: headshot.png
+  depiction: images/headshot.png
   profession: Teenage Mutant Ninja Turtle
   location: Helsingborg
   citizenship: Sverige
