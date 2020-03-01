@@ -57,6 +57,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
@@ -64,6 +65,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll-cv-crafter!
   rake (~> 12.3.3)
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.1.4
