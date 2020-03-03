@@ -34,9 +34,8 @@ career:
 
 technicalSkills:
   list:
-    - tr: "Impulsive, creative and very social"
-    - tr: "Heart and soul of the Ninja Turtles"
-    - tr: "Master of the Kusarigama and nunchucks"
+    - tr: "Kompetens 1"
+    - tr: "Kompetens 😄 "
     - tr: "Hejsan"
   backend:
    - name: MySQL
