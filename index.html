@@ -98,8 +98,10 @@
           </div>
 
           <div class="section">
-            <h4><i class="fa fa-male fa-lg"></i> Kompetenser:</h4>
-            <ul class="list-unstyled">
+            <div class="headline"> 
+              <h4><i class="fa fa-male fa-lg"></i> Kompetenser:</h4>
+            </div>
+            <ul class="list">
               {% for item in site.data.cv.technicalSkills.list %}
               <li>{{item.tr}}</li>
               {% endfor %}
@@ -111,7 +113,6 @@
 
       <div class="col-xs-9 bg-white">
         <div class="row">
-
           <div class="section text-center">
             <h1 class="name">{{ site.data.cv.person.name }}</h1>
             <span class="profession">{{ site.data.cv.person.profession }}</span>
