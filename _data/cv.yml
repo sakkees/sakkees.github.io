@@ -1,11 +1,11 @@
 url: http://sakkees.github.io
 projectUrl:
-
+  
 # leave blank fields which you don't want to fill/be displayed
 person:
   name: Isac Larsson
   depiction: images/headshot.png
-  profession: Teenage Mutant Ninja Turtle
+  profession: Student på Lunds Tekniska Högskola i Helsingborg
   location: Helsingborg
   citizenship: Sverige
   email: isaclarsson@live.se
@@ -15,22 +15,22 @@ person:
   linkedin: /isac-larsson
 
 career:
- - position: Foot Clan Antagonist
-   company: TMNT inc.
-   location: New York, USA
-   dates: September 2014 - current
-   summary: Physically the smallest of the Turtles and the least mature. Mikey is easily distracted and enthusiastic about... well, pretty much everything. He's also extremely creative. He has a thousand ideas, and every now and then, one of them will be brilliant. This combination of creativity and lack of focus gives him a kind of flow that the other Turtles cannot match. He's a social mutant and more than the others, pines to be part of the real world.
+ - position: Integer ac pellentesque sapien, a.
+   company: Företag AB
+   location: Helsingborg
+   dates: September 2010 - Pågående
+   summary: Cras pretium nibh id pharetra faucibus. Donec in mattis neque. Aenean et dolor ante. Ut vehicula ipsum non metus hendrerit commodo. Suspendisse dapibus eros ante, eu fermentum ex eleifend nec. Morbi eget purus purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin at nulla augue. Vivamus fermentum consectetur nulla, eget tempus urna egestas id.
    accomplishments:
     - accomplishment: An accomplishment :) 
-    - accomplishment: He refers to himself as the king of pranks. Since he the most funniest of his brothers and he hasn't shown to be wrong since he was able to show his pranking skills against his brothers like water balloons as he wants to prank them all and he was able to use his prank of water ballon to use against the tank of the truck.
- - position: Shredder enemy
-   company: TMNT
-   location: New York, USA
-   dates: October 2012 – September 2014
-   summary: Impulsive, creative and very social, Michelangelo is the heart and soul of the Ninja Turtles. The runt of the litter, he may be the smallest of his mutant brothers, but that doesn't make him the weakest (just harder to catch). Enemies beware! Michelangelo is a master of the Kusarigama, nunchucks with a secret and sharp surprise!
+    - accomplishment: Phasellus auctor sed nulla sit amet pellentesque. Fusce posuere suscipit metus vel.
+ - position: Fusce eget lectus.
+   company: Företag AB 
+   location: Helsingborg
+   dates: Augusti 2012 – Oktober 2014
+   summary: Aliquam erat volutpat. Fusce pretium est condimentum, dapibus elit sed, sagittis ipsum. Vivamus eget ante purus. Nullam eget massa nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique orci at sem tempus bibendum. Phasellus lacinia pulvinar erat, in semper eros tincidunt at. Quisque et erat posuere, finibus felis eu, euismod arcu.
    accomplishments:
-    - accomplishment: Mikey's skills as a skateboarder and a ninja give him a great ability with balance.
-    - accomplishment: He has the normal ability of a turtle to go into his shell.
+    - accomplishment: Nulla vel vehicula nisi. Proin tincidunt, nulla id elementum viverra.
+    - accomplishment: Nam auctor justo quis orci rutrum.
 
 technicalSkills:
   list:
@@ -61,10 +61,10 @@ other:
   - name: Körkort
     description: Innehar B-körkort
   - name: Hemsida
-    description: Hemsida med CV
+    description: Personlig hemsida
     link: http://isaclarsson.se
     type: site
-    langs: HTML/CSS/JavaScript/Jekyll
+    langs: HTML/SCSS/JavaScript/Jekyll
   
 education:
   - name: Datateknik - Lunds Tekniska Högskola
