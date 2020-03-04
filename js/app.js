@@ -3,14 +3,12 @@
 /* ----------------------------------------------- */
 
 /* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
+
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('particles.js loaded - callback');
 });
-*/
 
-/* Otherwise just put the config content (json): */
-
+/* Otherwise just put the config content (json): 
 particlesJS("particles-js", {
     particles: {
         number: { value: 137, density: { enable: true, value_area: 800 } },
@@ -71,4 +69,4 @@ particlesJS("particles-js", {
         }
     },
     retina_detect: true
-});
+}); */
