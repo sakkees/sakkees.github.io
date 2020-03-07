@@ -40,37 +40,42 @@
           <!-- INFO -->
           <div class="section">
             <table class="infoTable">
+              {% if site.data.cv.person.email %}
+              <tr>
+                <td><i class="fa fa-envelope-o fa-lg"></td>
+                <td><a href="mailto: {{ site.data.cv.person.email }}">{{site.data.cv.person.email }}</a></td>
+              </tr> 
+              {% endif%}
+              {% if site.data.cv.person.phone %}
+              <tr>
+                <td><i class="fa fa-phone fa-lg"></i></td>
+                <td>{{site.data.cv.person.phone}}</td>
+              </tr> 
+              {% endif%}  
+              {% if site.data.cv.person.linkedin %}
+              <tr>
+                <td><i class="fa fa-linkedin fa-lg"></i></td>
+                <td><a href="https://www.linkedin.com/in{{site.data.cv.person.linkedin}}">{{site.data.cv.person.linkedin}}</a></td>
+              </tr> 
+              {% endif%} 
+              {% if site.data.cv.person.github %}
+              <tr>
+                <td><i class="fa fa-github fa-lg"></i></td>
+                <td><a href="https://github.com{{site.data.cv.person.github}}">{{site.data.cv.person.github}}</a></td>
+              </tr> 
+              {% endif%}
+              {% if site.data.cv.person.site %}
+              <tr>
+                <td><i class="fa fa-laptop fa-lg"></td>
+                <td><a href="http://{{ site.data.cv.person.site }}">{{ site.data.cv.person.site }}</a></td>
+              </tr> 
+              {% endif%}
               {% if site.data.cv.person.location %}
               <tr>
                 <td><i class="fa fa-map-marker fa-lg"></i></td>
                 <td>{{site.data.cv.person.location}}</td>
               </tr> 
-              {% endif%} {% if site.data.cv.person.email %}
-              <tr>
-                <td><i class="fa fa-envelope-o fa-lg"></td>
-                <td><a href="mailto: {{ site.data.cv.person.email }}">{{site.data.cv.person.email }}</a></td>
-              </tr> 
-              {% endif%} {% if site.data.cv.person.site %}
-              <tr>
-                <td><i class="fa fa-laptop fa-lg"></td>
-                <td><a href="http://{{ site.data.cv.person.site }}">{{ site.data.cv.person.site }}</a></td>
-              </tr> 
-              {% endif%} {% if site.data.cv.person.phone %}
-              <tr>
-                <td><i class="fa fa-phone fa-lg"></i></td>
-                <td>{{site.data.cv.person.phone}}</td>
-              </tr> 
-              {% endif%} {% if site.data.cv.person.github %}
-              <tr>
-                <td><i class="fa fa-github fa-lg"></i></td>
-                <td><a href="https://github.com{{site.data.cv.person.github}}">{{site.data.cv.person.github}}</a></td>
-              </tr> 
-              {% endif%} {% if site.data.cv.person.linkedin %}
-              <tr>
-                <td><i class="fa fa-linkedin fa-lg"></i></td>
-                <td><a href="https://www.linkedin.com/in{{site.data.cv.person.linkedin}}">{{site.data.cv.person.linkedin}}</a></td>
-              </tr> 
-              {% endif%}
+              {% endif%} 
             </table>
           </div>
 
