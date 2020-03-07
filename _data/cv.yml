@@ -64,7 +64,7 @@ other:
     description: Personlig hemsida
     link: http://isaclarsson.se
     type: site
-    langs: HTML/SCSS/JavaScript/Jekyll
+    langs: HTML/SCSS/Bootstrap/JavaScript/Jekyll
   
 education:
   - name: Datateknik - Lunds Tekniska Högskola
