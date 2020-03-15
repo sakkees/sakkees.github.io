@@ -1,0 +1,122 @@
+---
+---
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h1, h2, h3, h4{
+  /* font-family: 'Archivo Black' !important;*/
+  font-family: inherit !important;
+}
+
+td:first-child{
+  text-align: center;
+}
+
+.infoTable tr td{
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.headline{
+  padding-bottom: 14px;
+}
+
+.list li{
+  padding-bottom: 6px;
+}
+
+.container{
+  background-color: rgb(255, 255, 255);
+  margin: 75px 0;
+}
+
+.bg-white{
+  background-color: #ffffff;
+}
+
+.bg-black{
+  background-color: #000000;
+}
+
+.section{
+  font-family: "Roboto", "Noto Sans", sans-serif, Helvetica, "Hiragino Sans GB" , "Microsoft Yahei" !important;
+  padding: 20px 22px;
+  .jd{
+    padding: 20px 0;
+  }
+}
+
+.section-border{
+  border-top: 1px solid lightblue;
+  .jd{
+    border-bottom: 1px solid lightblue;
+  }
+  .jd:last-child{
+      border-bottom: none;
+  }
+}
+
+.progress{
+  height: 4px !important;
+  margin-bottom: 15px !important;
+  margin-top: 4px !important;
+}
+
+.name{
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.profession{
+  /*font-family: 'Roboto Slab';
+  font-weight: 300;*/
+  font-size: 20px;
+} 
+
+.side-project{
+  padding-bottom: 20px;
+  :last-child{
+    padding-bottom: 0
+  }
+}
+
+#center{    
+  position: fixed;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  margin-top: -100px;
+  text-align: center;
+}
+
+/* Need to set to follow whole page height if background of left column does not match right column */ 
+#fullHeight{
+    height: 1250px;
+}
+
+#particles-js canvas {
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease
+}
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #15161b;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: 50% 50%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0
+}
