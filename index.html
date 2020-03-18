@@ -26,14 +26,9 @@
   <script src="js/webfontconfig.js"></script>
 </head>
 <body>
-     <!-- particles.js container -->
-    <div id="particles-js"></div>
-    <!-- scripts CDN: https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js -->
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>  
-    <div class="container my-container ">
-      <div class="row my-row">
-          <div class="col-md-3 bg-white my-col">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-3 bg-white">
             <div class="section">
               <img src="{{ site.data.cv.person.depiction }}" class="img-responsive img-circle">
             </div>
@@ -110,7 +105,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-9 bg-white my-col">
+          <div class="col-md-9 bg-white">
             <div class="section text-center">
               <h1 class="name">{{ site.data.cv.person.name }}</h1>
               <span class="profession">{{ site.data.cv.person.profession }}</span>
@@ -118,6 +113,7 @@
   
             <!-- CAREER -->
             <div class="section">
+              <hr>
               <h2>Arbetslivserfarenhet</h2>
               {% for item in site.data.cv.career %}
               <div class="jd">
@@ -184,5 +180,10 @@
           </div>
       </div>
     </div>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+    <!-- scripts CDN: https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js -->
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>  
 </body>
 </html>
