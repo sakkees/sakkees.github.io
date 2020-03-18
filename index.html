@@ -110,7 +110,21 @@
               <h1 class="name">{{ site.data.cv.person.name }}</h1>
               <span class="profession">{{ site.data.cv.person.profession }}</span>
             </div>
-  
+            
+            <!-- EDUCATION -->
+            <div class="section">
+              <h2>Utbildning</h2>
+              {% for item in site.data.cv.education %}
+              <div class="row">
+                <div class="col-xs-12">
+                  <h4><b>{{item.name}}</b></h4>
+                </div>
+                <div class="col-xs-12"><i class="fa fa-graduation-cap fa-lg"></i> {{item.degree}} <b>({{item.dates}})</b> </div>
+                <div class="col-xs-12"><i class="fa fa-map-marker fa-lg"></i> {{item.location}}</div>
+              </div>
+              {% endfor %}
+            </div>
+
             <!-- CAREER -->
             <div class="section">
               <hr>
@@ -142,21 +156,6 @@
                     </ul>
                   </div>
                 </div>
-              </div>
-              {% endfor %}
-            </div>
-        
-            <!-- EDUCATION -->
-            <div class="section">
-              <hr>
-              <h2>Utbildning</h2>
-              {% for item in site.data.cv.education %}
-              <div class="row">
-                <div class="col-xs-12">
-                  <h4><b>{{item.name}}</b></h4>
-                </div>
-                <div class="col-xs-12"><i class="fa fa-graduation-cap fa-lg"></i> {{item.degree}} <b>({{item.dates}})</b> </div>
-                <div class="col-xs-12"><i class="fa fa-map-marker fa-lg"></i> {{item.location}}</div>
               </div>
               {% endfor %}
             </div>
