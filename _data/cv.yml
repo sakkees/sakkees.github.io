@@ -15,21 +15,21 @@ person:
   linkedin: /isac-larsson
 
 career:
- - position: Integer ac pellentesque sapien, a.
-   company: Företag AB
-   location: Helsingborg
-   dates: September 2010 - Pågående
-   summary: Cras pretium nibh id pharetra faucibus. Donec in mattis neque. Aenean et dolor ante. Ut vehicula ipsum non metus hendrerit commodo. Suspendisse dapibus eros ante, eu fermentum ex eleifend nec. Morbi eget purus purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin at nulla augue. Vivamus fermentum consectetur nulla, eget tempus urna egestas id.
+ - position: Terminalassistent
+   company: Scandlines
+   location: Helsingör
+   dates: Juni 2016 - Augusti 2016
+   summary: Inklippning av biljetter till färjorna Helsingborg-Helsingör samt dirigera trafik in på färjorna.
    accomplishments:
     - accomplishment: An accomplishment :) 
     - accomplishment: Phasellus auctor sed nulla sit amet pellentesque. Fusce posuere suscipit metus vel.
- - position: Fusce eget lectus.
-   company: Företag AB 
+ - position: Vaktmästare
+   company: Helsingborgs stad
    location: Helsingborg
-   dates: Augusti 2012 – Oktober 2014
-   summary: Aliquam erat volutpat. Fusce pretium est condimentum, dapibus elit sed, sagittis ipsum. Vivamus eget ante purus. Nullam eget massa nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique orci at sem tempus bibendum. Phasellus lacinia pulvinar erat, in semper eros tincidunt at. Quisque et erat posuere, finibus felis eu, euismod arcu.
+   dates: Sommaren 2013
+   summary: Klippa gräsmattor, krita fotbollsplaner, städning.
    accomplishments:
-    - accomplishment: Nulla vel vehicula nisi. Proin tincidunt, nulla id elementum viverra.
+    - accomplishment: An accomplishment :) 
     - accomplishment: Nam auctor justo quis orci rutrum.
 
 technicalSkills:
@@ -45,7 +45,7 @@ technicalSkills:
   frontend:
    - name: HTML/CSS
      level: 75
-   - name: JavaScript / Node.js
+   - name: JavaScript
      level: 35
   other:
    - name: Java
@@ -58,13 +58,13 @@ other:
     description: Tillsammans med sju studiekamrater utvecklade vi ett webbaserat rapporteringssystem där klimatalliansens medlemmar kan rapportera in sina koldioxidutsläpp. Projektet gav mig kunskap inom PHP, JavaScript, MySQL, HTML och CSS.
     type: site
     langs: HTML/CSS/PHP/MySQL/JavaScript
-  - name: Körkort
-    description: Innehar B-körkort
-  - name: Hemsida
-    description: Personlig hemsida
+  - name: Hemsida 
+    description: Personlig hemsida med CV
     link: http://isaclarsson.se
     type: site
-    langs: HTML/SCSS/Bootstrap/JavaScript/Jekyll
+    langs: HTML/SCSS/Bootstrap/Jekyll/JavaScript
+  - name: Körkort
+    description: Innehar B-körkort
   
 education:
   - name: Datateknik - Lunds Tekniska Högskola

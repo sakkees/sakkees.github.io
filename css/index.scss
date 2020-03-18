@@ -5,11 +5,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-h1, h2, h3, h4{
-  /* font-family: 'Archivo Black' !important;*/
-  font-family: inherit !important;
-}
-
 td:first-child{
   text-align: center;
 }
@@ -30,6 +25,7 @@ td:first-child{
 
 .container{
   background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   margin: 75px 0;
 }
 
@@ -49,16 +45,6 @@ td:first-child{
   }
 }
 
-.section-border{
-  border-top: 1px solid lightblue;
-  .jd{
-    border-bottom: 1px solid lightblue;
-  }
-  .jd:last-child{
-      border-bottom: none;
-  }
-}
-
 .progress{
   height: 4px !important;
   margin-bottom: 15px !important;
@@ -71,26 +57,8 @@ td:first-child{
 }
 
 .profession{
-  /*font-family: 'Roboto Slab';
-  font-weight: 300;*/
   font-size: 20px;
 } 
-
-.side-project{
-  padding-bottom: 20px;
-  :last-child{
-    padding-bottom: 0
-  }
-}
-
-#center{    
-  position: fixed;
-  top: 50%;
-  left: 10%;
-  right: 10%;
-  margin-top: -100px;
-  text-align: center;
-}
 
 /* Need to set to follow whole page height if background of left column does not match right column */ 
 #fullHeight{
@@ -111,7 +79,7 @@ td:first-child{
   width: 100%;
   height: 100%;
   background-color: #15161b;
-  background-image: url("");
+  background-image: radial-gradient(#2b2e41, #15161b);
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: 50% 50%;
