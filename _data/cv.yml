@@ -21,16 +21,15 @@ career:
    dates: Juni 2016 - Augusti 2016
    summary: Inklippning av biljetter till färjorna Helsingborg-Helsingör samt dirigera trafik in på färjorna.
    accomplishments:
-    - accomplishment: An accomplishment :) 
-    - accomplishment: Another accomplishment
+    - accomplishment: Prestation 1
+    - accomplishment: Prestation 2
  - position: Vaktmästare
    company: Helsingborgs stad
    location: Helsingborg
    dates: Sommaren 2013
    summary: Klippa gräsmattor, krita fotbollsplaner, städning.
    accomplishments:
-    - accomplishment: An accomplishment :) 
-    - accomplishment: Another accomplishment
+    - accomplishment: Prestation 1 
 
 technicalSkills:
   list:
@@ -53,6 +52,10 @@ technicalSkills:
      level: 45
 
 other:
+  - name: Examensarbete hos IKEA
+    description: Prioriteringsverktyg
+    type: site
+    langs: Spring Boot/Node.js/Cloud Functions/REST API
   - name: Kursprojekt för Lunds Klimatallians
     description: Tillsammans med sju studiekamrater utvecklade vi ett webbaserat rapporteringssystem där klimatalliansens medlemmar kan rapportera in sina koldioxidutsläpp. Projektet gav mig kunskap inom PHP, JavaScript, MySQL, HTML och CSS.
     type: site
