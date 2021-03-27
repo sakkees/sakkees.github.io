@@ -5,8 +5,20 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.hr-margin{
+  margin: 2px;
+}
+
+.col-margin{
+  margin: 2px;
+}
+
 td:first-child{
   text-align: center;
+}
+
+.col-xs-12{
+  padding-top: 4px;
 }
 
 .infoTable tr td{
@@ -39,10 +51,7 @@ td:first-child{
 
 .section{
   font-family: "Roboto", "Noto Sans", sans-serif, Helvetica, "Hiragino Sans GB" , "Microsoft Yahei" !important;
-  padding: 20px 22px;
-  .jd{
-    padding: 20px 0;
-  }
+  padding: 10px 22px 10px;
 }
 
 .progress{
