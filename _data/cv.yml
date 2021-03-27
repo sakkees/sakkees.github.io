@@ -8,9 +8,9 @@ person:
   profession: Student på Lunds Tekniska Högskola i Helsingborg
   location: Helsingborg
   citizenship: Sverige
-  email: isaclarsson@live.se
+  email: se linkedin
   site: isaclarsson.se
-  phone: 1111111111
+  phone: kontakt via e-mail, se linkedin
   github: /sakkees
   linkedin: /isac-larsson
 
@@ -22,7 +22,7 @@ career:
    summary: Inklippning av biljetter till färjorna Helsingborg-Helsingör samt dirigera trafik in på färjorna.
    accomplishments:
     - accomplishment: An accomplishment :) 
-    - accomplishment: Phasellus auctor sed nulla sit amet pellentesque. Fusce posuere suscipit metus vel.
+    - accomplishment: Another accomplishment
  - position: Vaktmästare
    company: Helsingborgs stad
    location: Helsingborg
@@ -30,13 +30,12 @@ career:
    summary: Klippa gräsmattor, krita fotbollsplaner, städning.
    accomplishments:
     - accomplishment: An accomplishment :) 
-    - accomplishment: Nam auctor justo quis orci rutrum.
+    - accomplishment: Another accomplishment
 
 technicalSkills:
   list:
     - tr: "Kompetens 1"
-    - tr: "Kompetens 😄 "
-    - tr: "Hejsan"
+    - tr: "Kompetens 2"
   backend:
    - name: MySQL
      level: 65
@@ -46,7 +45,7 @@ technicalSkills:
    - name: HTML/CSS
      level: 75
    - name: JavaScript
-     level: 35
+     level: 40
   other:
    - name: Java
      level: 85
