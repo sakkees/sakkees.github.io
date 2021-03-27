@@ -119,15 +119,24 @@
                 <div class="col-xs-12">
                   <h4><b>{{item.name}}</b></h4>
                 </div>
-                <div class="col-xs-12"><i class="fa fa-graduation-cap fa-lg"></i> {{item.degree}} <b>({{item.dates}})</b> </div>
-                <div class="col-xs-12"><i class="fa fa-map-marker fa-lg"></i> {{item.location}}</div>
+                <div class="col-xs-12 col-margin">
+                  <div> 
+                    <i class="fa fa-graduation-cap fa-lg pull-left col-margin"></i> 
+                  </div> 
+                  {{item.degree}} <b>({{item.dates}})</b> 
+                </div>
+                <div class="col-xs-12 col-margin">
+                  <div>
+                    <i class="fa fa-map-marker fa-lg pull-left col-margin"></i> 
+                  </div>
+                  {{item.location}}</div>
               </div>
               {% endfor %}
             </div>
 
             <!-- CAREER -->
             <div class="section">
-              <hr>
+              <hr class="hr-margin">
               <h2>Arbetslivserfarenhet</h2>
               {% for item in site.data.cv.career %}
               <div class="jd">
@@ -162,7 +171,7 @@
             
             <!-- OTHER -->
             <div class="section">
-              <hr>
+              <hr class="hr-margin">
               <h2>Övrigt</h2>
               {% for item in site.data.cv.other %}
               <div class="row">
